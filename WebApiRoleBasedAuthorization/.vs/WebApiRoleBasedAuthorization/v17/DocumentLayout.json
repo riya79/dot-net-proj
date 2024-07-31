@@ -1,0 +1,868 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80B530C8-8E54-443F-890E-70F24E33D876}|..\\LanguageWorker\\LanguageWorker.csproj|e:\\rolebasedauthenticationimplment\\languageworker\\languageworker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B530C8-8E54-443F-890E-70F24E33D876}|..\\LanguageWorker\\LanguageWorker.csproj|e:\\rolebasedauthenticationimplment\\languageworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\shared\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\model\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:model\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\model\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:model\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B530C8-8E54-443F-890E-70F24E33D876}|..\\LanguageWorker\\LanguageWorker.csproj|e:\\rolebasedauthenticationimplment\\languageworker\\languageworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\products\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4375C2E-E239-4447-9729-F12BC7268798}|..\\EmailServiceLibrary\\EmailServiceLibrary.csproj|e:\\rolebasedauthenticationimplment\\emailservicelibrary\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4375C2E-E239-4447-9729-F12BC7268798}|..\\EmailServiceLibrary\\EmailServiceLibrary.csproj|e:\\rolebasedauthenticationimplment\\emailservicelibrary\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4375C2E-E239-4447-9729-F12BC7268798}|..\\EmailServiceLibrary\\EmailServiceLibrary.csproj|e:\\rolebasedauthenticationimplment\\emailservicelibrary\\model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4375C2E-E239-4447-9729-F12BC7268798}|..\\EmailServiceLibrary\\EmailServiceLibrary.csproj|e:\\rolebasedauthenticationimplment\\emailservicelibrary\\model\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\razorproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\userinfo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\user\\viewallusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\userinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\shared\\_validationscripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\_testpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\model\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:model\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\user\\viewallusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\model\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:model\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\model\\dto\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:model\\dto\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\model\\dto\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:model\\dto\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\dashboard\\userdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\products\\viewproducts.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\dashboard\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\webapirolebasedauthorization.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:webapirolebasedauthorization.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CB5197-8EF5-462A-9045-454C6FA352C8}|..\\Razorproject\\Razorproject.csproj|e:\\rolebasedauthenticationimplment\\razorproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|e:\\rolebasedauthenticationimplment\\webapirolebasedauthorization\\migrations\\20240712063745_rolebasedauthnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855761D3-C955-4189-BDDA-773B8ED31CC7}|WebApiRoleBasedAuthorization.csproj|solutionrelative:migrations\\20240712063745_rolebasedauthnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LanguageWorker",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\LanguageWorker\\LanguageWorker.csproj",
+              "RelativeDocumentMoniker": "..\\LanguageWorker\\LanguageWorker.csproj",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\LanguageWorker\\LanguageWorker.csproj",
+              "RelativeToolTip": "..\\LanguageWorker\\LanguageWorker.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-31T03:53:53.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\Register.cs",
+              "RelativeDocumentMoniker": "Model\\Register.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\Register.cs",
+              "RelativeToolTip": "Model\\Register.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:33:35.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:33:41.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAgwB0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T10:55:55.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T03:59:31.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:46:24.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\DTO\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\ResponseDto.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\DTO\\ResponseDto.cs",
+              "RelativeToolTip": "Model\\DTO\\ResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:21:23.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:18:36.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\Login.cs",
+              "RelativeDocumentMoniker": "Model\\Login.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\Login.cs",
+              "RelativeToolTip": "Model\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:33:14.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\LanguageWorker\\Program.cs",
+              "RelativeDocumentMoniker": "..\\LanguageWorker\\Program.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\LanguageWorker\\Program.cs",
+              "RelativeToolTip": "..\\LanguageWorker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:13:58.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LanguageWorker.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\LanguageWorker\\LanguageWorker.cs",
+              "RelativeDocumentMoniker": "..\\LanguageWorker\\LanguageWorker.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\LanguageWorker\\LanguageWorker.cs",
+              "RelativeToolTip": "..\\LanguageWorker\\LanguageWorker.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:11:34.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-16T05:11:45.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewProducts.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Products\\ViewProducts.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Products\\ViewProducts.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Products\\ViewProducts.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Products\\ViewProducts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T06:08:47.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Nav.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Shared\\_Nav.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Shared\\_Nav.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Shared\\_Nav.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Shared\\_Nav.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswAMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T06:26:10.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\EmailServiceLibrary\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "..\\EmailServiceLibrary\\Services\\EmailSender.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\EmailServiceLibrary\\Services\\EmailSender.cs",
+              "RelativeToolTip": "..\\EmailServiceLibrary\\Services\\EmailSender.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAcwCQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T04:17:14.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Razorproject.csproj",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Razorproject.csproj",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Razorproject.csproj",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Razorproject.csproj",
+              "RelativeToolTip": "..\\Razorproject\\Razorproject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-17T06:12:15.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwBMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T04:16:26.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmailConfiguration.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\EmailServiceLibrary\\Model\\EmailConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EmailServiceLibrary\\Model\\EmailConfiguration.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\EmailServiceLibrary\\Model\\EmailConfiguration.cs",
+              "RelativeToolTip": "..\\EmailServiceLibrary\\Model\\EmailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T04:29:00.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Message.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\EmailServiceLibrary\\Model\\Message.cs",
+              "RelativeDocumentMoniker": "..\\EmailServiceLibrary\\Model\\Message.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\EmailServiceLibrary\\Model\\Message.cs",
+              "RelativeToolTip": "..\\EmailServiceLibrary\\Model\\Message.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T04:29:02.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\EmailServiceLibrary\\Services\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "..\\EmailServiceLibrary\\Services\\IEmailSender.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\EmailServiceLibrary\\Services\\IEmailSender.cs",
+              "RelativeToolTip": "..\\EmailServiceLibrary\\Services\\IEmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T04:29:05.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-26T08:45:24.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserInfo.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\UserInfo.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\UserInfo.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\UserInfo.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\UserInfo.cshtml.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAWwHIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T04:13:07.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserInfo.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\UserInfo.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\UserInfo.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\UserInfo.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\UserInfo.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAtwEMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T04:12:59.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Program.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Program.cs",
+              "RelativeToolTip": "..\\Razorproject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:01:50.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ViewAllUsers.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\User\\ViewAllUsers.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\User\\ViewAllUsers.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\User\\ViewAllUsers.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\User\\ViewAllUsers.cshtml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAWwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:55:55.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAWwEEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T04:08:31.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ValidationScripts.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Shared\\_ValidationScripts.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Shared\\_ValidationScripts.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Shared\\_ValidationScripts.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Shared\\_ValidationScripts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T04:04:02.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_TestPartial.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\_TestPartial.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\_TestPartial.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\_TestPartial.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\_TestPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T07:03:21.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAWwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T04:01:44.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\UserRole.cs",
+              "RelativeDocumentMoniker": "Model\\UserRole.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\UserRole.cs",
+              "RelativeToolTip": "Model\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:18:36.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T06:13:05.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:19:06.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T07:24:46.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Index.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T04:58:10.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ViewAllUsers.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\User\\ViewAllUsers.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\User\\ViewAllUsers.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\User\\ViewAllUsers.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\User\\ViewAllUsers.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwB0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T04:50:09.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T04:08:16.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ForgotPassword.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\DTO\\ForgotPassword.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\ForgotPassword.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\DTO\\ForgotPassword.cs",
+              "RelativeToolTip": "Model\\DTO\\ForgotPassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:41:10.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\DTO\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\ProductDto.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\DTO\\ProductDto.cs",
+              "RelativeToolTip": "Model\\DTO\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:40:17.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ResetPassword.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\DTO\\ResetPassword.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\ResetPassword.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Model\\DTO\\ResetPassword.cs",
+              "RelativeToolTip": "Model\\DTO\\ResetPassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:41:13.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ResetPassword.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBJwBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:16.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserDashboard.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Dashboard\\UserDashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Dashboard\\UserDashboard.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Dashboard\\UserDashboard.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Dashboard\\UserDashboard.cshtml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBJwBAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T05:27:11.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ViewProducts.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Products\\ViewProducts.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Products\\ViewProducts.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Products\\ViewProducts.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Products\\ViewProducts.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:23:48.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Razorproject\\appsettings.json",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\appsettings.json",
+              "RelativeToolTip": "..\\Razorproject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-24T05:08:47.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\Razorproject\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwB4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-24T05:15:49.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T06:18:38.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T04:36:23.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:31:29.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Dashboard\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Dashboard\\UserDashboard.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Dashboard\\UserDashboard.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Dashboard\\UserDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T05:26:04.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T07:24:42.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Privacy.cshtml",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T04:16:58.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Razorproject\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "..\\Razorproject\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T10:54:48.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "WebApiRoleBasedAuthorization.csproj",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\WebApiRoleBasedAuthorization.csproj",
+              "RelativeDocumentMoniker": "WebApiRoleBasedAuthorization.csproj",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\WebApiRoleBasedAuthorization.csproj",
+              "RelativeToolTip": "WebApiRoleBasedAuthorization.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-19T03:45:14.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "..\\Razorproject\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "..\\Razorproject\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-17T06:14:14.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "site.js",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "..\\Razorproject\\wwwroot\\js\\site.js",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\Razorproject\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "..\\Razorproject\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-17T06:14:27.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20240712063745_RoleBasedAuthNew.cs",
+              "DocumentMoniker": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Migrations\\20240712063745_RoleBasedAuthNew.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240712063745_RoleBasedAuthNew.cs",
+              "ToolTip": "E:\\RoleBasedAuthenticationImplment\\WebApiRoleBasedAuthorization\\Migrations\\20240712063745_RoleBasedAuthNew.cs",
+              "RelativeToolTip": "Migrations\\20240712063745_RoleBasedAuthNew.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T06:37:47.321Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

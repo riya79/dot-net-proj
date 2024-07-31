@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Account\ForgotPassword.cshtml" />
+    <Content Remove="Pages\Account\_TestPartial.cshtml" />
+    <Content Remove="Pages\Shared\_ValidationScripts.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiRoleBasedAuthorization\WebApiRoleBasedAuthorization.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Account\ForgotPassword.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Account\ForgotPassword.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Account\ForgotPassword.cshtml" />
+    <None Include="Pages\Account\_TestPartial.cshtml" />
+    <None Include="Pages\Shared\_ValidationScripts.cshtml" />
+  </ItemGroup>
+
+  
+
+</Project>

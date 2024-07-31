@@ -1,0 +1,35 @@
+﻿@page
+@model Razorproject.Pages.User.ViewAllUsersModel
+@{
+}
+<h2>All Users</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Serial No</th>
+            <th scope="col">UserId</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.Users.Count; i++)
+        {
+            <tr>
+                <th scope="row">@(i + 1)</th>
+                <td>@Model.Users[i].Id</td>
+                <td>@Model.Users[i].Username</td>
+                <td>@Model.Users[i].Email</td>
+                <td>
+                    <a href="/Account/UserInfo?userid=@Model.Users[i].Id&showBackButton=true" class="btn btn-primary my-2">Edit</a>
+                    <form method="post" asp-page-handler="Delete">
+                        <input type="hidden" name="userId" value="@Model.Users[i].Id" />
+                        <button type="submit" class="btn btn-danger my-2">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

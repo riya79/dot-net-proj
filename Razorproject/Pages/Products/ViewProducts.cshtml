@@ -1,0 +1,21 @@
+﻿@page
+@model Razorproject.Pages.Products.ViewProductsModel
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2 class="text-center">Products</h2>
+<div class="row">
+    @foreach (var product in Model.Products)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Description</p>
+                    <h6 class="card-subtitle mb-2 text-muted">@product.CustomerPrice:C</h6>
+                </div>
+            </div>
+        </div>
+    }
+</div>

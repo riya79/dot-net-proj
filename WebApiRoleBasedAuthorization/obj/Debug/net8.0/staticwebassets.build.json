@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kHeAQy8mRnM+QqyVffBxdSYR33lAn/UHJCsxV/G87Gg=",
+  "Source": "WebApiRoleBasedAuthorization",
+  "BasePath": "_content/WebApiRoleBasedAuthorization",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

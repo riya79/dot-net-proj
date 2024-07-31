@@ -1,0 +1,96 @@
+﻿@page
+@model Razorproject.Pages.Account.UserInfoModel
+@{
+    ViewData["Title"] = "User Details";
+    var showBackButton = Request.Query["showBackButton"].ToString() == "true";
+    
+}
+
+<h2 class="text-center">User Details</h2>
+
+<div class="row justify-content-center ">
+<div class="col-md-4 border-light">
+ <form method="post">
+           
+    <div>
+        <label><strong>Id:</strong></label>
+        <input type="text" asp-for="userDetails.Id" class="form-control" readonly />
+        <span class="text-danger field-validation-valid" asp-validation-for="userDetails.Id"></span>
+    </div>
+    <div>
+        <label><strong>Name:</strong></label>
+        <input type="text" asp-for="userDetails.Username" class="form-control" readonly />
+        <span class="text-danger field-validation-valid" asp-validation-for="userDetails.Username"></span>
+    </div>
+    <div>
+        <label><strong>Email:</strong></label>
+        <input type="email" asp-for="userDetails.Email" class="form-control" readonly />
+        <span class="text-danger field-validation-valid" asp-validation-for="userDetails.Email"></span>
+    </div>
+            <!-- Back Button -->
+            @if (showBackButton)
+            {
+                <a href="/User/ViewAllUsers" class="btn bg-transparent" style="display: inline;">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708.708L2.707 7.5H14.5a.5.5 0 0 1 .5.5z" />
+                        </svg>
+                        Back
+                    </span>
+                </a>
+            }
+            else
+            {
+                <a href="Index" class="btn bg-transparent" style="display: none;">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708.708L2.707 7.5H14.5a.5.5 0 0 1 .5.5z" />
+                        </svg>
+                        Back
+                    </span>
+                </a>
+            }
+    <button type="button" id="editButton" class="btn btn-primary my-2">Edit</button>
+    <button type="submit" id="saveButton" class="btn btn-success my-2" style="display:none;">Save</button>
+   
+
+</form> 
+
+</div>
+</div>
+@section Scripts {
+    <script>
+        document.getElementById('editButton').addEventListener('click', function () {
+     
+            document.querySelector('[name="userDetails.Username"]').removeAttribute('readonly');
+            document.querySelector('[name="userDetails.Email"]').removeAttribute('readonly');
+            document.getElementById('editButton').style.display = 'none';
+            document.getElementById('saveButton').style.display = 'inline';
+        });
+        document.getElementById('userDetailsForm').addEventListener('submit', function (event) {
+            const username = document.querySelector('[name="userDetails.Username"]').value.trim();
+            const email = document.querySelector('[name="userDetails.Email"]').value.trim();
+            let isValid = true;
+
+            // Clear previous validation messages
+            document.querySelectorAll('.text-danger').forEach(span => span.textContent = '');
+
+            if (username === '') {
+                isValid = false;
+                document.querySelector('[asp-for="userDetails.Username"]').nextElementSibling.textContent = 'Username is required.';
+            }
+
+            if (email === '') {
+                isValid = false;
+                document.querySelector('[asp-for="userDetails.Email"]').nextElementSibling.textContent = 'Email is required.';
+            }
+
+            if (!isValid) {
+                event.preventDefault(); // Prevent form submission
+            }
+        });
+
+       
+    </script>
+
+}

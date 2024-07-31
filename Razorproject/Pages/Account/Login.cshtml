@@ -1,0 +1,43 @@
+﻿@page
+@model Razorproject.Pages.Account.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<h4 class="text-center">Account Login</h4>
+<hr />
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> @Model.ErrorMessage
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+<div class="row justify-content-center ">
+    <div class="col-md-4 border-light">
+
+        <form method="post">
+            <div class="form-group  ">
+                <label for="username" class="control-label">Username: </label>
+                <input type="text" id="username" name="Input.Username" class="form-control" required autocomplete="username" />
+            </div>
+            <div class="form-group  ">
+                <label for="password" class="control-label">Password: </label>
+                <input type="password" id="password" name="Input.Password" class="form-control" required autocomplete="current-password" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary my-2" />
+            </div>
+        </form>
+        <div class="">
+            <a asp-page="/Account/ForgotPassword">Forgot Password</a>
+        </div>
+        <div class="">
+            <a asp-page="/Account/Register">Register</a>
+        </div>
+    </div>
+</div>
+
+
+

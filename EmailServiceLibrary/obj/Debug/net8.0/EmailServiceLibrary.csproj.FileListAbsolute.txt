@@ -1,0 +1,12 @@
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\bin\Debug\net8.0\EmailServiceLibrary.deps.json
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\bin\Debug\net8.0\EmailServiceLibrary.dll
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\bin\Debug\net8.0\EmailServiceLibrary.pdb
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\EmailServiceLibrary.csproj.AssemblyReference.cache
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\EmailServiceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\EmailServiceLibrary.AssemblyInfoInputs.cache
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\EmailServiceLibrary.AssemblyInfo.cs
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\EmailServiceLibrary.csproj.CoreCompileInputs.cache
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\EmailServiceLibrary.dll
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\refint\EmailServiceLibrary.dll
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\EmailServiceLibrary.pdb
+E:\RoleBasedAuthenticationImplment\EmailServiceLibrary\obj\Debug\net8.0\ref\EmailServiceLibrary.dll
